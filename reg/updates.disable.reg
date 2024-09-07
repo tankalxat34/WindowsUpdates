@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+; disable Windows updates
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"DoNotConnectToWindowsUpdateInternetLocations"=dword:00000001
+"UpdateServiceUrlAlternate"="server.wsus"
+"WUServer"="server.wsus"
+"WUStatusServer"="server.wsus"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"UseWUServer"=dword:00000001
+"NoAutoUpdate"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UsoSvc]
+"Start"=dword:00000004
+
+; Остановка службы Microsoft Store
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\InstallService]
+"Start"=dword:00000004
