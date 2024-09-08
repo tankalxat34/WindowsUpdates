@@ -1,6 +1,6 @@
 # WindowsUpdates
 
-PowerShell scripts and `rededit` configs to disable and enable Windows Updates
+PowerShell scripts and `regedit` configs to disable and enable Windows Updates
 
 ## How to use?
 
