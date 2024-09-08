@@ -1,4 +1,4 @@
-# WindowsUpdates
+# Disable or Enable Windows updates
 
 PowerShell scripts and `regedit` configs to disable and enable Windows Updates
 
