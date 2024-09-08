@@ -5,13 +5,13 @@ PowerShell scripts and `regedit` configs to disable and enable Windows Updates
 ## How to use?
 
 To disable updates open PowerShell with administrator rights and paste here command:
-```powershell
-irm https://raw.githubusercontent.com/tankalxat34/WindowsUpdates/main/scripts/updates.disable.ps1 | iex
+```cmd
+irm https://bit.ly/win-updates-disable | iex
 ```
 
 Command to enable updates:
-```powershell
-irm https://raw.githubusercontent.com/tankalxat34/WindowsUpdates/main/scripts/updates.enable.ps1 | iex
+```cmd
+irm https://bit.ly/win-updates-enable | iex
 ```
 
 
