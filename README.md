@@ -32,3 +32,16 @@ If you see an error - please perform actons that listed below and try again:
 1. Open PowerShell with administrator rights
 2. Move into `.\scripts`
 3. Perform command `powershell .\updates.enable.ps1`
+
+---------------------
+
+## Как отключить обновления Windows?
+Для отключения обновлений Windows нужно открыть PowerShell с правами администратора и ввести команду:
+```cmd
+irm bit.ly/win-updates-disable | iex
+```
+
+Чтобы обратно включить обновления Windows нужно открыть PowerShell с правами администратора и ввести команду:
+```cmd
+irm bit.ly/win-updates-enable | iex
+```
